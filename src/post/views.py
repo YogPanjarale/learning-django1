@@ -7,8 +7,8 @@ from .models import Post
 #CRUD -> Create Retrive Update Delete
 
 def post_list_view(request:HttpRequest):
-    post_ojects = Post.objects.all() 
+    post_objects = Post.objects.all() 
     context = {
-        'post_objects':post_ojects
+        'post_objects':post_objects
     }
     return render(request,"posts/index.html",context)
