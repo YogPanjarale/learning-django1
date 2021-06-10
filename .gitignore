@@ -1,1 +1,3 @@
 env
+src/dj30/__pycache__/
+src/db.sqlite3
